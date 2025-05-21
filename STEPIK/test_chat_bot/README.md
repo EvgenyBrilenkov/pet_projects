@@ -9,8 +9,14 @@
 
 Соответсвенно, необходимо будет ввести одну из комбинаций для дальнейшей работы:
 
-login:admin            login:nick            login:dan
-password:admin         password:super        password:ultra
+login:admin                        
+password:admin                 
+
+login:nick
+password:super
+
+login:dan
+password:ultra
 
 Нас встречает стартовая страница:
 
