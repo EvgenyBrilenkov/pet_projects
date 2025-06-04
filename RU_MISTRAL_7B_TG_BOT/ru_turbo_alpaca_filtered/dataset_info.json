@@ -1,0 +1,38 @@
+{
+  "builder_name": "ru_turbo_alpaca",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "ru_turbo_alpaca",
+  "dataset_size": 54774775,
+  "description": "Russian gpt-3.5-turbo Alpaca",
+  "download_checksums": {
+    "ru_turbo_alpaca.jsonl.zst": {
+      "num_bytes": 14565995,
+      "checksum": null
+    }
+  },
+  "download_size": 14565995,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 69340770,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 54774775,
+      "num_examples": 29822,
+      "dataset_name": "ru_turbo_alpaca"
+    }
+  },
+  "version": {
+    "version_str": "0.0.1",
+    "major": 0,
+    "minor": 0,
+    "patch": 1
+  }
+}
