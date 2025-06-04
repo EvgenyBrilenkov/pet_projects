@@ -10,14 +10,14 @@
 ```
 RU_MISTRAL_7B_TG_BOT/  
 ├── final_model/                       # Финальная дообученная модель  
-├── model_training  
-│     ├── checking_dataset.ipynb  
-│     ├── lora_training.py  
-│     ├── model_inference.py  
-│     └── model_test_before_lora.py  
+├── model_training/  
+│     ├── checking_dataset.ipynb       # Обработка датасета
+│     ├── lora_training.py             # Дообучение модели с помощью LoRA 
+│     ├── model_inference.py           # Тест модели после обучения
+│     └── model_test_before_lora.py    # Тест модели до обучения
 ├── ru_turbo_alpaca_filtered/          # Датасет для обучения  
 ├── telegram_bot/  
-│     └── bot.py                       # Телеграм-бот с интерфейсом к модели  
+│     └── bot.py                       # Телеграм-бот для обращения к модели  
 ├── before_lora.txt                    # Примеры ответов до обучения  
 └── after_lora.txt                     # Примеры ответов после обучения  
 ```
