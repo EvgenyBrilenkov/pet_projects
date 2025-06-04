@@ -18,8 +18,8 @@ RU_MISTRAL_7B_TG_BOT/
 ├── ru_turbo_alpaca_filtered/          # Датасет для обучения  
 ├── telegram_bot/  
 │     └── bot.py                       # Телеграм-бот для обращения к модели  
-├── before_lora.txt                    # Примеры ответов до обучения  
-└── after_lora.txt                     # Примеры ответов после обучения  
+├── after_lora.txt                     # Примеры ответов после обучения  
+└── before_lora.txt                    # Примеры ответов до обучения  
 ```
 
 ### ⚒ Ход работы  
