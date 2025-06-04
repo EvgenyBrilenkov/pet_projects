@@ -7,15 +7,15 @@
 Для обучения был выбран датасет ru_turbo_alpaca (https://huggingface.co/datasets/IlyaGusev/ru_turbo_alpaca).  
 
 # Структура проекта  
-RU_MISTRAL_7B_TG_BOT/
-├── final_model/                # Финальная дообученная модель
-├── model_training
-│   ├── checking_dataset.ipynb
-│   ├── lora_training.py
-│   ├── model_inference.py
-│   └── model_test_before_lora.py
-├── ru_turbo_alpaca_filtered/  # Датасет для обучения
-├── telegram_bot/
-│   └── bot.py                 # Телеграм-бот с интерфейсом к модели
-├── before_lora.txt            # Примеры ответов до обучения
-└── after_lora.txt             # Примеры ответов после обучения
+RU_MISTRAL_7B_TG_BOT/  
+├── final_model/                # Финальная дообученная модель  
+├── model_training  
+│   ├── checking_dataset.ipynb  
+│   ├── lora_training.py  
+│   ├── model_inference.py  
+│   └── model_test_before_lora.py  
+├── ru_turbo_alpaca_filtered/  # Датасет для обучения  
+├── telegram_bot/  
+│   └── bot.py                 # Телеграм-бот с интерфейсом к модели  
+├── before_lora.txt            # Примеры ответов до обучения  
+└── after_lora.txt             # Примеры ответов после обучения  
